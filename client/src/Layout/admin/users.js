@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import React from "react";
 import { useState, useEffect } from "react";
 import "../../Component/mystyle.css";
+import axios from "axios";
 
 //movies
 export default function Users() {

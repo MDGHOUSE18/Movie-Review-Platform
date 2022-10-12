@@ -337,6 +337,14 @@ app.post("/moviedelete", (req, response, fields) => {
   );
 });
 
+app.post("/users", (req, response, fields) => {
+  console.log("Come");
+  db.query("select * from users", (err, results) => {
+    if (err) throw err;
+    response.send({ message: "success" });
+  });
+});
+
 app.listen(3001, () => {
   console.log("running server");
 });
