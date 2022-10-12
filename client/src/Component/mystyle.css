@@ -9,11 +9,11 @@
   margin-top: auto;
   margin-bottom: 0%;
   margin-left: 0%;
-  position: fixed;
+  position: bottom;
    bottom: 0;
    width: 100%;
    height: 60px;   /* Height of the footer */
-   background: black;
+   ;
 }
 .bg1{
   background-color: Wisteria Purple;
