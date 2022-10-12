@@ -1,7 +1,8 @@
+
 import './mystyle.css'
 export default function footer() {
   return (
-    <div class="container-fluid bg1">
+    <div class="container-fluid  fixed-bottom bg1">
       <footer class="site-footer">
         
         <h5 class="footer-style">

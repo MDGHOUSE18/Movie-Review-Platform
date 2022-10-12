@@ -1,5 +1,4 @@
 import Header from "../../Component/header";
-import footer from "../../Component/footer";
 import Axios from "axios";
 // function Movie() {
 //     return (
@@ -67,12 +66,14 @@ function AcptMovie() {
           Accept: "application/json",
         },
       }
-    ).then(function (response) {
+    )
+      .then(function (response) {
         console.log(response);
         console.log(c);
         c++;
         return response.json();
-      }).then(function (myJson) {
+      })
+      .then(function (myJson) {
         console.log(myJson);
 
         setData(myJson);

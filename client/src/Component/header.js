@@ -30,7 +30,6 @@ function MyLinks() {
 			<>
 			
 				<li class="menu-item ">  <Link to="/"> Home</Link></li>
-				<li class="menu-item"><Link to="/Watchlist">Watch List</Link></li>
 				<li class="menu-item"><Link to="/Search">Search</Link></li>
 				<li class="menu-item"><Link to="/UserAddmovie">Add Movies</Link></li>
 				<li class="menu-item">
@@ -49,7 +48,8 @@ function MyLinks() {
 	else if (Session.getrole() == 1 && session != 'null') {
 		return (
 			<>
-				<li class="menu-item "> <span>  |</span>  Welcome Admin</li>
+				<li class="menu-item "> <span>   </span>  Welcome Admin</li>
+				<li class="menu-item"><Link to="/Admindash">Dashboard</Link></li>
 				<li class="menu-item ">  <Link to="/"> Home</Link></li>
 				<li class="menu-item"><Link to="/AddMovie">Add Movies</Link></li>
 				<li class="menu-item"><Link to="/movieAccept">Accept Movie</Link></li>
@@ -75,7 +75,6 @@ function MyLinks() {
 			<>
 				<li class="menu-item "> <span>  |</span> Welcome Critic</li>
 				<li class="menu-item ">  <Link to="/"> Home</Link></li>
-				<li class="menu-item"><Link to="/Watchlist">Watch List</Link></li>
 				<li class="menu-item"><Link to="/UserAddmovie">Add Movies</Link></li>
 				<li class="menu-item"><Link to="/Search">Search</Link></li>
 				<li class="menu-item">

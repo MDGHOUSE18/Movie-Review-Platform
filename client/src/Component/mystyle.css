@@ -1,4 +1,9 @@
-
+.dash{
+  background-color: #ffaa3c;
+}
+.header{
+  background-color: #7dc7068f;
+}
 .footer-style{
   color: white;
   text-shadow: #ccc;
@@ -9,11 +14,11 @@
   margin-top: auto;
   margin-bottom: 0%;
   margin-left: 0%;
-  position: bottom;
-   bottom: 0;
+  
+  
    width: 100%;
    height: 60px;   /* Height of the footer */
-   ;
+   
 }
 .bg1{
   background-color: Wisteria Purple;
@@ -21,6 +26,9 @@
 .bgim{
 
   background-color: #DBF9DB;
+}
+.dashstyle{
+  background-color: #ffe9cc;
 }
 .myloginbox{
     margin-top:5%;
