@@ -337,7 +337,7 @@ app.post("/moviedelete", (req, response, fields) => {
   );
 });
 
-app.post("/users", (req, response, fields) => {
+app.post("/users", ( response, fields) => {
   console.log("Come");
   db.query("select * from users", (err, results) => {
     if (err) throw err;

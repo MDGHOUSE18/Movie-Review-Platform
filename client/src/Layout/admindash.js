@@ -14,10 +14,6 @@ export default function Admindash(){
         nav("/AdminReview")
     }
 
-    function del(){
-        nav("/DeleteMovie")
-    }
-
     function user(){
         nav("/Users")
     }
@@ -37,15 +33,6 @@ export default function Admindash(){
                         <h2>Add Movie</h2>
                         <Card.Subtitle className="mb-2 text-muted">Add movie to Watchlist</Card.Subtitle>
                         <Button variant="outline-primary" onClick={()=>add()}>Add Movie</Button>{' '}
-                    </Card.Body>
-                </Card>
-            </div>
-            <div class='dash-card col'>
-                <Card style={{ width:'18rem', height:'150px'}}>
-                    <Card.Body >
-                        <h2>Delete Movie</h2>
-                        <Card.Subtitle className="mb-2 text-muted">You Can Delete the movie</Card.Subtitle>
-                        <Button variant="outline-primary" onClick={()=>del()}>Delete</Button>{' '}
                     </Card.Body>
                 </Card>
             </div>
