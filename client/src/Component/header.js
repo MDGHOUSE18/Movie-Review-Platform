@@ -59,23 +59,17 @@ function MyLinks() {
           {" "}
           <span> </span> Welcome Admin
         </li>
-        <li class="menu-item">
-          <Link to="/Admindash">Dashboard</Link>
-        </li>
+        
         <li class="menu-item ">
           {" "}
           <Link to="/"> Home</Link>
         </li>
         <li class="menu-item">
-          <Link to="/AddMovie">Add Movies</Link>
+          <Link to="/Admindash">Dashboard</Link>
         </li>
-        <li class="menu-item">
-          <Link to="/movieAccept">Accept Movie</Link>
-        </li>
+        
 
-        <li class="menu-item">
-          <Link to="/AdminReview">Reviews</Link>
-        </li>
+        
         <li class="menu-item">
           <Link to="/Users">Users</Link>
         </li>
