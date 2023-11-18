@@ -1,4 +1,4 @@
-# Movie-Review-Web
+# Movie-Review-App
  A React WebPagge to Rate and Review Movies
 # Server 
  1)npm init
